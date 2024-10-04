@@ -1,0 +1,19 @@
+{
+  "ts-node": {
+    "require": ["tsconfig-paths/register"]
+  },
+  "compilerOptions": {
+    "target": "ES2018",
+    "baseUrl": ".",
+    "moduleResolution": "node",
+    "experimentalDecorators": true,
+    "lib": ["ES2020", "DOM", "DOM.Iterable"],
+    "skipLibCheck": true,
+    /* Linting */
+    "strict": false,
+//    "noUnusedLocals": true,
+//    "noUnusedParameters": true,
+//    "noFallthroughCasesInSwitch": true
+  },
+  "include": ["src/**/*.ts"]
+}

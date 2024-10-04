@@ -1,0 +1,7 @@
+What is the difference between == and ===?
+
+What is NaN? What is its type? How can you reliably test if a value is equal to NaN?
+What is the difference between == and ===?
+What is ‘this’ keyword in JavaScript?
+What are all the looping structures in JavaScript?
+What are break and continue statements?
