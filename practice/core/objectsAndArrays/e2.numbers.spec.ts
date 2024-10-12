@@ -1,10 +1,9 @@
 import {expect} from "chai";
+import { checkNaN } from './e2.numbers';
 
-function checkNaN(value: any): boolean {
-    return Number.isNaN(value);
-}
 
-describe("NaN Type", () => {
+
+describe("Numbers", () => {
 
     it('should return "true"', () => {
         expect(checkNaN(NaN)).to.be.eq(true);
